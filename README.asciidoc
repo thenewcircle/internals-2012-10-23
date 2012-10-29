@@ -55,7 +55,10 @@ If you want to set up an Eclipse workspace to manipulate the AOSP source, the in
 . Configure Eclipse (memory in particular) as per http://source.android.com/source/using-eclipse.html
 . Get the AOSP source code
 . In Eclipse, select File -> New -> Other... -> Java Project
+
+[loweralpha]
 .. Uncheck "Use default location"
 .. Under "Location", select the root directory for your AOSP source tree
 .. Click "Finish"
+
 . Disable Project -> Build Automatically
