@@ -15,6 +15,12 @@ or
 
 or download a Zip archive by clicking the link above.
 
+== Course Survey
+
+IMPORTANT: Please complete the Marakana class survey at: http://marakana.com/survey
+
+Thanks!
+
 == Useful Links
 
 * Android Developer videos on YouTube: http://www.youtube.com/user/androiddevelopers
@@ -41,3 +47,15 @@ or download a Zip archive by clicking the link above.
 * Binder driver overview: http://lukejin.wordpress.com/2011/03/13/android%E4%B8%AD%E7%9A%84binder/
 
 * Description of native Binder use: http://www.scribd.com/doc/24499613/Android-IPC-Binder
+
+== Setting up an Eclipse Workspace for Android Platform Development
+
+If you want to set up an Eclipse workspace to manipulate the AOSP source, the instructions at http://source.android.com/source/using-eclipse.html do not reflect the options available in the latest version of Eclipse. Follow these steps to create your Eclipse workspace:
+
+. Configure Eclipse (memory in particular) as per http://source.android.com/source/using-eclipse.html
+. Get the AOSP source code
+. In Eclipse, select File -> New -> Other... -> Java Project
+.. Uncheck "Use default location"
+.. Under "Location", select the root directory for your AOSP source tree
+.. Click "Finish"
+. Disable Project -> Build Automatically
